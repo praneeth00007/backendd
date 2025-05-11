@@ -141,8 +141,6 @@ public class UserService {
         return DTO.MonthlyLimitResponse.builder()
                 .id(user.getMonthlyLimit().getId())
                 .amount(user.getMonthlyLimit().getAmount())
-                .startDate(user.getMonthlyLimit().getStartDate())
-                .endDate(user.getMonthlyLimit().getEndDate())
                 .build();
     }
 
